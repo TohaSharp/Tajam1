@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: #413d4b;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0.42px;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: inline-block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c2c2c2;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+p,
+ul,
+ol,
+figure {
+  margin: 0 0 16px 0;
+}
+
+* + p,
+* + ul,
+* + ol,
+* + figure {
+  margin-top: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.67em 0;
+}
+
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5,
+* + h6 {
+  margin-top: 0.67em;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: " Playfair Display ";
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 0.32px;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-family: "Playfair Display";
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+}
+
+h3 {
+  color: #ffffff;
+  font-family: "Roboto - Black";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+}
+
+h4 {
+  font-family: "Roboto - Black";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}

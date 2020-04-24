@@ -1,0 +1,57 @@
+.button {
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 3px;
+  border: 1px solid #00e0d0;
+  padding: 15px 16px;
+  color: #00e0d0;
+  font-family: "Hammersmith One";
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: transparent;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.button:hover {
+  text-decoration: none;
+}
+.button:focus {
+  outline: none;
+}
+
+.button-section-about {
+  margin-top: 10px;
+}
+
+.button-primary:hover {
+  color: #fff;
+  background-color: #00e0d0;
+  border-color: #c2c2c2;
+}
+.button-danger {
+  color: #ffffff;
+  background-color: red;
+}
+
+.button-danger:hover {
+  color: red;
+  background-color: #ffffff;
+  border-color: red;
+}
+
+.button-large {
+  padding: 22px 64px;
+}
+
+.button-medium {
+  padding: 12px 24px;
+}
+
+.button-full {
+  width: 100%;
+}

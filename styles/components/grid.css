@@ -1,0 +1,17 @@
+.grid {
+  display: flex;
+  margin: -10px;
+}
+.grid > .grid-item {
+  padding: 10px;
+}
+
+.grid-large {
+}
+.grid-large .grid-item {
+}
+
+.grid-medium {
+}
+.grid-medium .grid-item {
+}
